@@ -1,13 +1,13 @@
-import EricCTest1 as E1;
+import Collab1 as C1;
 
 # Example Passing Test
 def test_hello_pass():
-    assert hello.hello_world() == "Hello!"
+    assert C1.hello_world() == "Hello!"
 
 # Example Failed Test
 # Uncomment, run once & then comment out again
 #def test_hello_fail():
-#    assert hello.hello_world() == "Hello World!"
+#    assert C1.hello_world() == "Hello World!"
 
 #########################
 #  HW Assignment Tests  #
@@ -15,4 +15,4 @@ def test_hello_pass():
 
 # Problem 1 Tests
 def test_function_one():
-    assert E1.function_1( 1 ) == True
+    assert C1.function_1( 1 ) == 1
