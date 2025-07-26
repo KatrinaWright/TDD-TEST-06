@@ -5,10 +5,12 @@ def hello_world():
     return "Hello!"
 
 def function_1(data):
-    if data == 1:
-        return 1
+    if type(data) != int:
+        return None
     elif data < 1:
         return None
+    elif data == 1:
+        return 1
     sum = 0
     for i in range(1, data+1):
         sum += i
