@@ -15,4 +15,4 @@ def test_hello_pass():
 
 # Problem 1 Tests
 def test_function_one():
-    assert C1.function_1( 1 ) == 1
+    assert C1.function_1([1]) == 1    # Corrected, passing a list, not an int
