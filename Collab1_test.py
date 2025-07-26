@@ -23,3 +23,6 @@ def test_function_nine():
 def test_function_neg():
     assert C1.function_1( -2 ) == None
 
+def test_function_two():
+    assert C1.function_1( 2 ) == 3
+
