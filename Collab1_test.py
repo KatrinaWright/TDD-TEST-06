@@ -20,3 +20,6 @@ def test_function_one():
 def test_function_nine():
     assert C1.function_1( 9 ) == 45
 
+def test_function_neg():
+    assert C1.function_1( -2 ) == None
+
