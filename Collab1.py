@@ -7,10 +7,12 @@ def hello_world():
 def function_1(data):
     if data == 1:
         return 1
-    elif data > 1:
-        return 45
-    else:
+    elif data < 1:
         return None
+    sum = 0
+    for i in range(1, data+1):
+        sum += i
+    return sum
 
 def main():
     print("Function 1: ", function_1(1))
