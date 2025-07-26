@@ -7,8 +7,10 @@ def hello_world():
 def function_1(data):
     if data == 1:
         return 1
-    else:
+    elif data > 1:
         return 45
+    else:
+        return None
 
 def main():
     print("Function 1: ", function_1(1))
