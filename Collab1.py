@@ -17,9 +17,7 @@ def function_1(data):
     return sum
 
 def function_2(data):
-    if type(data) != int:
-        return None
-    elif data == 1:
+    if data == 1:
         return 1
     sum = 0
     for i in range(1, data+1):
