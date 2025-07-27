@@ -29,3 +29,7 @@ def test_function_two():
 def test_function_two():
     assert C1.function_1( "six" ) == None
 
+# Problem 2 Tests
+def test_new_one():
+    assert C1.function_2( [1] ) == 1
+
