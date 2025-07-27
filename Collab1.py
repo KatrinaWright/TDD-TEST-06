@@ -20,9 +20,7 @@ def function_2(data):
     if data == 1:
         return 1
     sum = 0
-    for i in range(1, data+1):
-        sum += 1
-    return sum
+    return sum([i for i in data])
     
 
 def main():
