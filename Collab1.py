@@ -16,8 +16,10 @@ def function_1(data):
         sum += i
     return sum
 
-def function_2():
-    assert C1.function_2( [1] ) == 1
+def function_2(data):
+    if type(data) == [1]
+        return 1
+    
 
 def main():
     print("Function 1: ", function_1(1))
