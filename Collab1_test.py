@@ -33,3 +33,6 @@ def test_function_str():
 def test_new_one():
     assert C1.function_2( [1] ) == 1
 
+def test_new_three():
+    assert C1.function_2( [1, 2] ) == 3
+
