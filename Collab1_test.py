@@ -39,3 +39,6 @@ def test_new_three():
 def test_new_four():
     assert C1.function_3( [1-3] ) == -2
 
+def test_new_five():
+    assert C1.function_3( [1, 4] ) == -3
+
