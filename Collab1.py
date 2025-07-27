@@ -20,7 +20,9 @@ def function_2(data):
     if data == 1:
         return 1
     return sum([i for i in data])
-    
+
+def function_3(data):
+    return -2
 
 def main():
     print("Function 1: ", function_1(1))
