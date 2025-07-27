@@ -26,7 +26,7 @@ def test_function_neg():
 def test_function_two():
     assert C1.function_1( 2 ) == 3
 
-def test_function_two():
+def test_function_str():
     assert C1.function_1( "six" ) == None
 
 # Problem 2 Tests
