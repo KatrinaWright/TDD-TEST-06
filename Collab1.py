@@ -19,7 +19,6 @@ def function_1(data):
 def function_2(data):
     if data == 1:
         return 1
-    sum = 0
     return sum([i for i in data])
     
 
