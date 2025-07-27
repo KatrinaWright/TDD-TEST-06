@@ -17,7 +17,7 @@ def function_1(data):
     return sum
 
 def function_2(data):
-    if type(data) == [1]
+    if type(data) == [1]:
         return 1
     
 
